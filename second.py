@@ -1,7 +1,7 @@
-list = [1, 2.5, "A string", True]
+num = 5
 
-print(list)
-list[2] = "Banji"
-list[3] = False
-print(list)
-print(list[2][2]) # to print the B in the array
+if num == 5:
+    print("Hello")
+
+if num >= 5:
+    print("World")
