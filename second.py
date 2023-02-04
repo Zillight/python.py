@@ -1,13 +1,6 @@
-# Unicode value
+list = [1, 2.5, "A string", True]
 
-name1 = "Banji "
-name2 = "Zillight"
-
-fullname = name1 + name2
-print(fullname)
-
-print("haha" *3)
-
-word = "This is a random string"
-print("is" in word)
-print("of" in word)
+print(list)
+list[2] = "Banji"
+list[3] = False
+print(list)
