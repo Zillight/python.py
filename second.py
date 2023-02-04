@@ -5,9 +5,11 @@ if num >=0 and num <=100:
         if num >=0 and num <=100:
             print(Yayyy!!!"")'''
 
-num = 60
+x = "Red"
 
-if num <= 50:
-    print("Something")
+if x == "Green":
+    print("Yes")
+elif x == "Black":
+    print("Right")
 else:
-    print("something else")
+    print("Nothing to show")
