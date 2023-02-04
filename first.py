@@ -1,2 +1,2 @@
 var = "I love Python"
-print(var)
+print(var) #ensure not to do print("var")
