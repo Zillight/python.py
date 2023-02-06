@@ -1,18 +1,11 @@
-#String Formatting 
+x = 5
+y = 2
+z = x/y
+print(z)
 
-string1 = "I love %s." % "Python"
-print(string1)
+# Exponent
+print(5**2) # Five raised to power of two
 
-string2 = "I love %s and %s." % ("Python", "Javascript")
-print(string2)
-
-var = "JavaScript"
-string3 = "I love %s." % var
-print(string3)
-
-#For integer
-string2 = "I love %d and %i." % (10, 22)
-print(string2)
-#For float
-string2 = "I love %d and %i and %.2f." % (10, 22, 5.99)
-print(string2)
+#Modulus
+print(5 % 2) # remainder 1
+print(4 % 5) # 4 is the dividend, 5 is the divisor, since the divisor is greater than he dividend, the answer is always the dividend 
