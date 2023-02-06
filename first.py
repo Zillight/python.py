@@ -1,3 +1,7 @@
 # None keyword
-
-print(None)
+var = 10
+print(type(var))
+var = "Banji"
+print(type(var))
+var = True
+print(type(var))
