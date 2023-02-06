@@ -1,13 +1,17 @@
-'''num = 63
+num = 20
 
-if num >=0 and num <=100:
-    if num >=0 and num <=100:
-        if num >=0 and num <=100:
-            print(Yayyy!!!"")'''
+if num >= 0 and num <=100:
+    if num >= 50 and num <=75:
+        if num >= 60 and num <= 70:
+            print("Yayyy!!!")
+    else:
+        print("Naaah!!!")
 
-num = 60
-
-if num <= 50:
-    print("Something")
-else:
-    print("something else")
+#x = "Black"
+#
+#if x == "Green":
+#    print("Yes")
+#elif x == "Black":
+#    print("Right")
+#else:
+#    print("Nothing to show")
