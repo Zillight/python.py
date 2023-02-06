@@ -1,3 +1,4 @@
-var = "Python"
-x = var[-1]
-print(x) 
+alex = "Hello "
+print(id(alex))
+alex = "World"
+print(id(alex))
