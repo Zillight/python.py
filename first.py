@@ -1,9 +1,4 @@
-# None keyword
-var = 10
-print(type(var))
-var = "Banji"
-print(type(var))
-var = True
-print(type(var))
-var = 20.5
-print(type(var))
+#type casting 
+
+x = 10 + int("20") # the 'int' converts the variable from being a string to an integer.
+print(x)
