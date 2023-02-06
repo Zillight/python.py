@@ -1,10 +1,11 @@
-#String slicing
-# Syntax =
-# string [start : end : step]
+#String Formatting
 
-my_string = "This is my string!"
+string1 = "I love %s." % "Python"
+print(string1)
 
-print(my_string[::-1]) # Prints everything in reverse
-print(my_string[17:4:-1]) # starts from the last position (17) and ends 0n the 4th letter.
-print(my_string[17:4:-2]) # you can also change the steps at will.
+string2 = "I love %s and %s." % ("Python", "Javascript")
+print(string2)
 
+var = "JavaScript"
+string3 = "I love %s." % var
+print(string3)
