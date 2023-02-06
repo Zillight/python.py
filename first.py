@@ -1,8 +1,5 @@
-# floor Division
-print(28 // 10) # prints only the whole number and ignores the rest
+x = input("First number: ")
+y = input("Second number: ")
 
-print(28 / 10)
-
-print(int(28 / 10)) # because division will always give float answer, wwe can TYPECAST it by forcing 'int' to make it come out as whole number.
-
-print(int(5/3))
+print(x + y) # When you input x = 10 and y = 20, the answer will be '1020', and that is because it sees everything as strings, like, "10" + "20".
+print(type(x))
