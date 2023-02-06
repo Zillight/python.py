@@ -1,4 +1,5 @@
-# Negative Numbers in Modulus
-print(-28 % 10) # we keep adding 10 to the number until it gives us a +ve number i.e. -28 + 10 = -18 + 10 = -8 + 10 = 2
-print(28 % -10) # Here we keep subtracting -10 from the dividend until we have a -ve value i.e. 28 - 10 = 18 - 10 = 8 - 10 = -2.
-print(-5 % 4) # -5 + 4 = -1 + 4 = 3 
+# PEMDAS (BODMAS) Operations
+
+print(10 - 3 * 2) #3*2= 6, 10 - 6 = 4. 
+print(3 * 20/5) # 20 / 5 = 4, 3 * 4 = 12, but once there is a divsion in the equation, it prints the answer in a float manner, hence, 12.0
+print(3/20 * 5) # same applies here, answer is 0 .75
