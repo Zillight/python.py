@@ -4,8 +4,7 @@
 
 my_string = "This is my string!"
 
-print(my_string[0:4]) # The default for the step is always 1 + Always add 1 to the last number
-print(my_string[0:4:2]) # Step:2 means it will skip every 2 steps
-print(my_string[:]) # Prints everything
-print(my_string[4:]) # cuts out the first 4 letter.
-print(my_string[:10]) # starts from the beginning and ends on the 10th number 
+print(my_string[::-1]) # Prints everything in reverse
+print(my_string[17:4:-1]) # starts from the last position (17) and ends 0n the 4th letter.
+print(my_string[17:4:-2]) # you can also change the steps at will.
+
