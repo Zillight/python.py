@@ -27,3 +27,6 @@ my_bool = False and False
 print(my_bool) #False
 my_bool = True and True
 print(my_bool) #True
+
+print(10 * True)
+print(10 * False)
