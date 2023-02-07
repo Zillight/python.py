@@ -1,13 +1,10 @@
-# Scope and Function 2
+# Find Function
+txt = "Hello, there"
+x = txt.find("e")
+print(x)
+x = txt.find("e", 5, 10) # 5, 10 >> stating the range where it should find e.
+print(x)
 
-num_list = [10, 20, 30, 40, 50]
+x = txt.find("x")
+print(x) # This will print -1 which means invalid
 
-def multiply(my_list):
-    my_list[0] = my_list[0] * 10
-    my_list[1] = my_list[1] * 10
-    my_list[2] *= 10
-    my_list[3] *= 10
-    my_list[4] *= 10
-
-multiply(num_list)
-print(num_list)
