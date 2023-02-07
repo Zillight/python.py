@@ -18,3 +18,8 @@ def mini(first, second): #User defined function
         return(first)
 var = mini(1,5)
 print(var)
+
+# You can use position argument to rearrange the function
+
+var = mini(second=5, first= 1)
+print(var) 
