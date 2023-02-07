@@ -1,5 +1,9 @@
-# Lambdas Function - for conditional statement
+# Functions as Arguments
+def add(n1, n2):
+    return n1 + n2
 
-func = lambda num: "High" if num > 50 else "Low"
-print(func(51))
-print(func(49))
+def subtract(n1, n2):
+    return n1 - n2
+
+print(add(10, 5))    
+print(subtract(10, 5))    
