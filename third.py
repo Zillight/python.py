@@ -1,15 +1,9 @@
-# Functions as Arguments
-def add(n1, n2):
-    return n1 + n2
+# Map(), list() and Filter () - Functions 
 
-def subtract(n1, n2):
-    return n1 - n2
+# syntax: map(function, list)
 
-def calculate(operation, n1, n2):
-    return operation(n1, n2)
+num_list = [1, 2, 3, 4, 5]
+var = map(lambda n: n*2, num_list)
+print(list(var)) 
 
-print(add(10, 5))    
-print(subtract(10, 5))
-
-print(calculate(add, 10, 5))
-print(calculate(subtract, 10, 5))
+# Result: [2, 4, 6, 8, 10]
