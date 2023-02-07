@@ -1,5 +1,4 @@
-# Replace Function
-string1 = "Welcome to Programming"
-new_string = string1.replace("Programming", "Python Programming")
+# Changing to UpperCase and Lowercase
 
-print(new_string)
+print("Uppercase".upper())
+print("LOWERcase".lower())
