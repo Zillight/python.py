@@ -1,7 +1,5 @@
-# Join Function - Converts a list to a string
-list = ['a', 'b', 'c']
-print("".join(list))
-print(" ".join(list))
-print(">".join(list))
-print("-".join(list))
-print("/".join(list))
+# Format Function
+
+string = "Every {} is a {}, from {} to {}(hero).".format("day", "blessing", 0, 100) 
+
+print(string)
