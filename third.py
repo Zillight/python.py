@@ -1,11 +1,13 @@
-# Scope and Function
+# Scope and Function 2
 
-num = 20
+num_list = [10, 20, 30, 40, 50]
 
-def multiply(n):
-    n = n * 10 # Can be rewritten as 'n *= 10'
-    num = n
-    print("The value of num  inside function: ",num)
-multiply(num)
+def multiply(my_list):
+    my_list[0] = my_list[0] * 10
+    my_list[1] = my_list[1] * 10
+    my_list[2] *= 10
+    my_list[3] *= 10
+    my_list[4] *= 10
 
-print(num) # This is a global variable(outside of the function)
+multiply(num_list)
+print(num_list)
