@@ -1,5 +1,4 @@
-# Format Function
+# UNICODE ASCII
 
-string = "Every {} is a {}, from {} to {}(hero).".format("day", "blessing", 0, 100) 
-
-print(string)
+print(ord('a'))
+print(ord('A'))
