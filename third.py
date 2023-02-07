@@ -1,8 +1,5 @@
-# Lambdas Function
+# Lambdas Function - for conditional statement
 
-var = lambda num: num * 3 # This works best with a single line of code
-print(var(10))
-
-def var(num):
-    return num * 3
-print(var(10))  # Prints the same thing but lambdas is shorter
+func = lambda num: "High" if num > 50 else "Low"
+print(func(51))
+print(func(49))
