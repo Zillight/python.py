@@ -1,4 +1,7 @@
-# Changing to UpperCase and Lowercase
-
-print("Uppercase".upper())
-print("LOWERcase".lower())
+# Join Function - Converts a list to a string
+list = ['a', 'b', 'c']
+print("".join(list))
+print(" ".join(list))
+print(">".join(list))
+print("-".join(list))
+print("/".join(list))
