@@ -1,5 +1,8 @@
-# TYPECASTING
+# Lambdas Function
 
-#print("Bond" + 7) # THis will throw in an error
-print("Bond" + "007") # Prints Bond007
-print("Bond" + str(7)) # 007 wont work here because of the starting zeroes. 
+var = lambda num: num * 3 # This works best with a single line of code
+print(var(10))
+
+def var(num):
+    return num * 3
+print(var(10))  # Prints the same thing but lambdas is shorter
